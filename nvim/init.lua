@@ -22,8 +22,8 @@ Plug 'L3MON4D3/LuaSnip'
 Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'rafamadriz/friendly-snippets'
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'jiangmiao/auto-pairs'
-
+Plug 'm4xshen/autoclose.nvim'
+Plug 'windwp/nvim-ts-autotag'
 vim.call('plug#end')
 
 vim.cmd("set tabstop=4")

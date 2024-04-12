@@ -1,3 +1,11 @@
+vim.cmd('set termguicolors')
+
+require'lualine'.setup {options = {theme = 'gruvbox'}}
+require'colorizer'.setup()
+
+vim.cmd('autocmd vimenter * ++nested colorscheme gruvbox')
+
+
 local function open_nvim_tree()
     require'nvim-tree.api'.tree.toggle{
 		focus=false
