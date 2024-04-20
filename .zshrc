@@ -113,4 +113,4 @@ if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] &&
   exec tmux a
 fi
 
-export dt="/mnt/c/Users/User/Desktop/"
+#export dt="/mnt/c/Users/User/Desktop/"
