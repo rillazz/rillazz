@@ -21,7 +21,7 @@ return {
   	"williamboman/mason.nvim",
   	opts = {
   		ensure_installed = {
-  			"lua-language-server", "stylua", "mypy", "ruff", "debugpy"
+  			"lua-language-server", "stylua", "mypy", "ruff", "debugpy",
   			"html-lsp", "css-lsp" , "prettier", "pyright", "black"
   		},
   	},
